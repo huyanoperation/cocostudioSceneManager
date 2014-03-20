@@ -1,0 +1,20 @@
+﻿生成启动时间为 2014/3/16 21:54:20。
+     1>项目“E:\work\cocos2d-x-2.2.3\samples\Cpp\HelloCpp\proj.win32\HelloCpp.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\Program Files\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I"E:\work\cocos2d-x-2.2.3\samples\Cpp\HelloCpp\proj.win32\..\..\..\..\cocos2dx" /I"E:\work\cocos2d-x-2.2.3\samples\Cpp\HelloCpp\proj.win32\..\..\..\..\cocos2dx\include" /I"E:\work\cocos2d-x-2.2.3\samples\Cpp\HelloCpp\proj.win32\..\..\..\..\cocos2dx\kazmath\include" /I"E:\work\cocos2d-x-2.2.3\samples\Cpp\HelloCpp\proj.win32\..\..\..\..\cocos2dx\platform\win32" /I"E:\work\cocos2d-x-2.2.3\samples\Cpp\HelloCpp\proj.win32\..\..\..\..\cocos2dx\platform\third_party\win32\OGLES" /I..\Classes /I"E:\work\cocos2d-x-2.2.3\samples\Cpp\HelloCpp\proj.win32\..\..\..\..\extensions" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D COCOS2D_DEBUG=1 /D _CRT_SECURE_NO_WARNINGS /D _SCL_SECURE_NO_WARNINGS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug.win32\\" /Fd"Debug.win32\vc110.pdb" /Gd /TP /wd4267 /wd4251 /wd4244 /analyze- /errorReport:prompt ..\Classes\HelloWorldScene.cpp
+         HelloWorldScene.cpp
+     1>e:\work\cocos2d-x-2.2.3\samples\cpp\hellocpp\classes\helloworldscene.cpp(84): warning C4018: “<”: 有符号/无符号不匹配
+     1>e:\work\cocos2d-x-2.2.3\samples\cpp\hellocpp\classes\helloworldscene.cpp(109): warning C4018: “<”: 有符号/无符号不匹配
+       Link:
+         D:\Program Files\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\work\cocos2d-x-2.2.3\Debug.win32\HelloCpp.exe" /INCREMENTAL /NOLOGO /LIBPATH:"E:\work\cocos2d-x-2.2.3\Debug.win32\\" libExtensions.lib libcocos2d.lib libCocosDenshion.lib opengl32.lib glew32.lib libBox2d.lib libchipmunk.lib libcurl_imp.lib websockets.lib pthreadVCE2.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\work\cocos2d-x-2.2.3\Debug.win32\HelloCpp.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\work\cocos2d-x-2.2.3\Debug.win32\HelloCpp.lib" /MACHINE:X86 /SAFESEH Debug.win32\AppDelegate.obj
+         Debug.win32\HelloWorldScene.obj
+         Debug.win32\main.obj
+         "E:\work\cocos2d-x-2.2.3\Debug.win32\libcocos2d.lib"
+         "E:\work\cocos2d-x-2.2.3\Debug.win32\libCocosDenshion.lib"
+     1>AppDelegate.obj : warning LNK4075: 忽略“/EDITANDCONTINUE”(由于“/SAFESEH”规范)
+         HelloCpp.vcxproj -> E:\work\cocos2d-x-2.2.3\Debug.win32\HelloCpp.exe
+     1>已完成生成项目“E:\work\cocos2d-x-2.2.3\samples\Cpp\HelloCpp\proj.win32\HelloCpp.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:25.87
