@@ -31,6 +31,7 @@ bool HelloWorld::init()
 	setTouchEnabled( true );
 	CCSize s =  CCDirector::sharedDirector()->getWinSize();
 	/*CCSprite * spr = CCSprite::create("HelloWorld.png");
+     
 	spr->setPosition(ccp(s.width/2,s.height/2));
 	spr->setScale(2.0f);
 	this->addChild(spr);*/
