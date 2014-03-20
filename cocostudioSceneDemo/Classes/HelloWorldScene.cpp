@@ -48,10 +48,10 @@ bool HelloWorld::init()
     CCNode *pNode = SceneReader::sharedSceneReader()->createNodeWithSceneFile("NewScene.json");
     CCNode *pNode2 = SceneReader::sharedSceneReader()->createNodeWithSceneFile("NewScene2.json");
    //---------------------------------------------------------------------------------------------
-	//step1  一个做远一个做中景
+	//step1  一个做远景一个做中景
 	addChild( pNode );
 	addChild( pNode2 );
-	CCNode* pSprite = GetNodeFromParent( pNode ,"testweapon1" );  //将场景中的一个子Node结点去出来控制
+	CCNode* pSprite = GetNodeFromParent( pNode ,"testweapon1" );  //将场景中的一个子Node结点取出来控制
 	pSprite->runAction( CCMoveBy::create( 10, ccp(1000, 0 ) ) );
 	onCreateTouch( pNode, pNode2 );
 
