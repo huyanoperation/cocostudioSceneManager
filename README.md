@@ -1,0 +1,4 @@
+cocostudioSceneManager
+======================
+
+cocostudioSceneManager
